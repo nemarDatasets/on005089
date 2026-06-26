@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Proactive selective attention across competition contexts",
+  "description": "This dataset investigates proactive selective attention mechanisms across different competitive contexts using neuroimaging data. The study examines how individuals modulate attentional resources in anticipation of task demands within varying levels of competition, providing insights into the neural correlates of goal-directed attention and performance optimization.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,12 +15,24 @@
     "Luis F. Ciria": {},
     "Maria Ruz": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005089.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "selective attention"
     },
+    {
+      "term": "competition"
+    },
+    {
+      "term": "proactive control"
+    },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "cognitive control"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005089",
       "identifier_type": "URL",
@@ -29,40 +42,28 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005089",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005089.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "344.5 MB (11 files)"
+    "73.0 GB (73 files)"
   ],
   "formats": [
     ".fdt",
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises EEG data collected to investigate proactive selective attention mechanisms across different competitive contexts. The study examines how individuals modulate attentional processes in response to varying levels of competition, providing insights into the neural correlates of goal-directed attention and performance monitoring. This dataset is a NEMAR mirror of the OpenNeuro dataset ds005089.",
-  "keywords": [
-    {
-      "term": "selective attention"
-    },
-    {
-      "term": "competition"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "proactive control"
-    },
-    {
-      "term": "performance monitoring"
-    }
-  ],
-  "source_hash": "c68f8b483128fcf338849a536200ed3b7e2cc695aa3e6d7905f2004e837b2274"
+  "source_hash": "84481915d1a082bbf2033103271996d84b57dc4cac1d37de7a574d25f4acc420"
 }
