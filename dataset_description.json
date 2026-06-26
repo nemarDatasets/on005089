@@ -1,17 +1,23 @@
 {
-    "Authors": [
-        "Blanca Aguado-Lopez",
-        "Ana F. Palenciano",
-        "Jose M. G. Penalver",
-        "Paloma Diaz-Gutierrez",
-        "David Lopez-Garcia",
-        "Chiara Avancini",
-        "Luis F. Ciria",
-        "Maria Ruz"
-    ],
-    "BIDSVersion": "1.2",
-    "DatasetType": "raw",
-    "Name": "Proactive selective attention across competition contexts",
-    "DatasetDOI": "doi:10.18112/openneuro.ds005089.v1.0.1",
-    "License": "CC0"
+  "Authors": [
+    "Blanca Aguado-Lopez",
+    "Ana F. Palenciano",
+    "Jose M. G. Penalver",
+    "Paloma Diaz-Gutierrez",
+    "David Lopez-Garcia",
+    "Chiara Avancini",
+    "Luis F. Ciria",
+    "Maria Ruz"
+  ],
+  "BIDSVersion": "1.2",
+  "DatasetType": "raw",
+  "Name": "Proactive selective attention across competition contexts",
+  "DatasetDOI": "10.82901/nemar.on005089",
+  "License": "CC0",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005089.v1.0.1"
+    }
+  ],
+  "Version": "1.0.0"
 }
