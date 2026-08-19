@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Proactive selective attention across competition contexts",
-  "description": "This dataset investigates proactive selective attention mechanisms across different competitive contexts using neuroimaging data. The study examines how individuals modulate attentional resources in anticipation of task demands within varying levels of competition, providing insights into the neural correlates of goal-directed attention and performance optimization.",
+  "description": "This dataset contains EEG recordings examining proactive selective attention across different competition contexts. It was collected to investigate how attentional preparation mechanisms adapt to varying levels of stimulus or response competition, contributing to research on cognitive control and attentional selection processes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,19 +17,19 @@
   },
   "keywords": [
     {
+      "term": "EEG"
+    },
+    {
       "term": "selective attention"
     },
     {
-      "term": "competition"
+      "term": "cognitive control"
     },
     {
       "term": "proactive control"
     },
     {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "cognitive control"
+      "term": "attention"
     }
   ],
   "related_identifiers": [
@@ -39,14 +39,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005089",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds005089.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005089",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
