@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Proactive selective attention across competition contexts",
-  "description": "This dataset contains EEG recordings examining proactive selective attention across different competition contexts. It was collected to investigate how attentional preparation mechanisms adapt to varying levels of stimulus or response competition, contributing to research on cognitive control and attentional selection processes.",
+  "description": "EEG dataset investigating proactive selective attention across different competition contexts. The dataset is mirrored on NEMAR from OpenNeuro (ds005089) and organized in BIDS format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,13 +23,10 @@
       "term": "selective attention"
     },
     {
-      "term": "cognitive control"
-    },
-    {
       "term": "proactive control"
     },
     {
-      "term": "attention"
+      "term": "attentional competition"
     }
   ],
   "related_identifiers": [
@@ -55,7 +52,7 @@
     "eeg"
   ],
   "sizes": [
-    "73.0 GB (73 files)"
+    "68.00 GB (73 files)"
   ],
   "formats": [
     ".fdt",
